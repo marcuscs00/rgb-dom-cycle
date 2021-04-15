@@ -1,11 +1,11 @@
 let colorArray = [["red", 0], ["green", 1], ["blue", 2]];
 
-let count = 0;            
+let count = 1;            
 
 function domManipulation() {
-	let header = document.getElementById('header');
+	let initialHeader = document.getElementById('initialHeader');
 
-	header.style.color = colorArray[count][0];
+	initialHeader.style.color = colorArray[count][0];
 
 	++count;
 
