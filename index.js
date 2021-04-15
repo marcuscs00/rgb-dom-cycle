@@ -1,6 +1,6 @@
 let colorArray = [["red", 0], ["green", 1], ["blue", 2]];
 
-let count = 1;            
+let count = 0;
 
 function domManipulation() {
 	let initialHeader = document.getElementById('initial-header');
