@@ -3,7 +3,7 @@ let colorArray = [["red", 0], ["green", 1], ["blue", 2]];
 let count = 1;            
 
 function domManipulation() {
-	let initialHeader = document.getElementById('initialHeader');
+	let initialHeader = document.getElementById('initial-header');
 
 	initialHeader.style.color = colorArray[count][0];
 
